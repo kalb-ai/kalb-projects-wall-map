@@ -233,3 +233,5 @@ location in the same sitting and confirm a build appears.
 The `/tools/coords.html` page works on the deployed site too — open
 `https://<your-vercel-url>/tools/coords.html`, correct pins, download the
 patched `projects.json`, and upload it to GitHub the same way.
+
+
