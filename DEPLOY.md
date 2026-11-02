@@ -339,3 +339,4 @@ along with the interface — which is why it beats a fixed setting in the app.
 **Offline behaviour:** the app shell is cached by the browser, but map tiles
 stream from the internet. If the office loses connectivity the chrome, index,
 and project data still render; the basemap will be blank until it's back.
+
