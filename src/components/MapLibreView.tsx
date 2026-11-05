@@ -1,6 +1,7 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import * as maplibregl from 'maplibre-gl';
 import type { Map as MLMap, Marker, StyleSpecification } from 'maplibre-gl';
+import maplibreWorkerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url';
 import type { Project } from '../types';
 import type { BBox } from '../lib/regions';
 import { setBearing } from '../lib/bearing';
@@ -18,6 +19,17 @@ import { addHeatLayer } from '../lib/heat';
  * 3D building extrusions from OpenFreeMap vector tiles when reachable.
  * Tiles need internet; markers and UI still function without it.
  */
+
+/**
+ * MapLibre parses vector tiles, GeoJSON and terrain in a Web Worker that it
+ * loads from a separate file, maplibre-gl-worker.mjs, found relative to its
+ * own module URL. Once bundled, that URL points into /assets/, where no such
+ * file was ever emitted: the live site answered 404 for it, so this engine's
+ * worker never started. 6.0.0 failed silently; later releases report "Worker
+ * failed to load". Importing the file with ?url makes Vite copy it into the
+ * build under a content-hashed name, and setWorkerUrl points MapLibre there.
+ */
+maplibregl.setWorkerUrl(maplibreWorkerUrl);
 
 /**
  * Cinematic default: Esri World Imagery (photo-real satellite) with place
