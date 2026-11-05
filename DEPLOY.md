@@ -188,8 +188,9 @@ Nobody has to restart anything.
 
 **A window that is already open** — the lobby display, or an installed
 desktop app left running — polls `version.json` every 15 minutes. That file
-carries the build's content hash, so it changes when the code changes and
-*doesn't* when a redeploy produces identical output. When it changes, the
+carries a content hash of the code **and** of the project data, so it
+changes when either changes and *doesn't* when a redeploy produces identical
+output. When it changes, the
 page reloads **the next time the screen is idle**, so a reload can never
 interrupt somebody mid-look. A machine waking from sleep checks immediately
 rather than waiting out the interval.
@@ -201,8 +202,12 @@ rather than waiting out the interval.
 filenames.
 
 **Project data** (`data/projects.json`, `data/teams.json`) is `no-store` and
-read at load, so a data edit shows up on the next refresh — no rebuild, and
-the same idle-reload picks it up on the wall within 15 minutes.
+read once, at load. A data edit committed to GitHub triggers a Vercel build;
+that build's `version.json` carries the new data hash, so the open wall
+reloads at its next idle moment, normally within 15 minutes of the build
+finishing. Before Nov 2026 the hash covered code only, so a data-only edit
+went live on the site but an already-open display kept the old data until
+someone refreshed it by hand.
 
 The installed desktop app is just Chrome pointed at the same URL, so all of
 the above applies to it identically. There is no separate copy to update.
