@@ -758,10 +758,10 @@
     "description": "GU Other in Las Vegas. Completion date not yet on file.",
     "heroImage": null,
     "flags": [
-      "Co-managed with CS"
+      "Co-managed with CS",
+      "Owner punch list walk Nov 16. Completion depends on NV Energy approving the fire pump house plans, then 2–10 weeks to C/O."
     ],
-    "estCompletion": "09/12/2026",
-    "estCompletionDate": "2026-09-12",
+    "estCompletion": "TBD",
     "sqFtNote": "71.32 acres (sitework)"
   },
   {
@@ -814,10 +814,10 @@
     "description": "GU Other in Las Vegas. Completion date not yet on file.",
     "heroImage": null,
     "flags": [
-      "Co-managed with CS"
+      "Co-managed with CS",
+      "Owner punch list walk Nov 16. Completion depends on NV Energy approving the fire pump house plans, then 2–10 weeks to C/O."
     ],
-    "estCompletion": "10/26/2026",
-    "estCompletionDate": "2026-10-26",
+    "estCompletion": "TBD",
     "sqFt": 28500,
     "photos": [
       "./renders/24132/24132-1.jpg",
