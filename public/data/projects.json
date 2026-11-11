@@ -2825,5 +2825,59 @@
     ],
     "estCompletion": "02/01/2027",
     "estCompletionDate": "2027-02-01"
+  },
+  {
+    "id": "26711",
+    "number": "26711",
+    "name": "3396 Lakeside TI",
+    "address": "3396 Lakeside Dr",
+    "city": "Reno",
+    "state": "NV",
+    "region": "NNV",
+    "lat": 39.492991,
+    "lng": -119.807791,
+    "category": "Office & TI",
+    "team": "rp",
+    "superintendent": "TM",
+    "status": "In Progress",
+    "year": 2026,
+    "featured": false,
+    "siteId": "lakeside-3376-3396",
+    "siteName": "3376 & 3396 Lakeside Dr",
+    "description": "TI in Reno. Estimated completion 03/01/2027.",
+    "heroImage": null,
+    "flags": [
+      "Project type not on file",
+      "Square footage not on file"
+    ],
+    "estCompletion": "03/01/2027",
+    "estCompletionDate": "2027-03-01"
+  },
+  {
+    "id": "26712",
+    "number": "26712",
+    "name": "3376 Lakeside TI",
+    "address": "3376 Lakeside Dr",
+    "city": "Reno",
+    "state": "NV",
+    "region": "NNV",
+    "lat": 39.493045,
+    "lng": -119.80779,
+    "category": "Office & TI",
+    "team": "rp",
+    "superintendent": "TM",
+    "status": "In Progress",
+    "year": 2026,
+    "featured": false,
+    "siteId": "lakeside-3376-3396",
+    "siteName": "3376 & 3396 Lakeside Dr",
+    "description": "TI in Reno. Estimated completion 03/01/2027.",
+    "heroImage": null,
+    "flags": [
+      "Project type not on file",
+      "Square footage not on file"
+    ],
+    "estCompletion": "03/01/2027",
+    "estCompletionDate": "2027-03-01"
   }
 ]
