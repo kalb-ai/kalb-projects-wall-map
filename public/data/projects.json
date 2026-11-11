@@ -435,10 +435,9 @@
     "status": "In Progress",
     "year": 2026,
     "featured": false,
-    "description": "TI Office in Sparks. Completion date not yet on file.",
+    "description": "TI Office in Sparks. Estimated completion 11/27/2026.",
     "heroImage": null,
     "flags": [
-      "Est. completion not on file",
       "Square footage not on file"
     ],
     "photos": [
@@ -448,7 +447,9 @@
       "./renders/26701/26701-4.jpg",
       "./renders/26701/26701-5.jpg",
       "./renders/26701/26701-6.jpg"
-    ]
+    ],
+    "estCompletion": "11/27/2026",
+    "estCompletionDate": "2026-11-27"
   },
   {
     "id": "24700",
@@ -464,17 +465,19 @@
     "projectType": "TI Office",
     "team": "rp",
     "superintendent": "TT (Ted Tetreault)",
-    "status": "In Progress",
+    "status": "Complete",
     "year": 2024,
     "featured": false,
     "siteId": "lcb-south",
     "siteName": "LCB — 401 S. Carson",
-    "description": "TI Office in Carson City. Completion date not yet on file.",
+    "description": "TI Office in Carson City. Estimated completion 04/28/2026.",
     "heroImage": null,
     "flags": [
-      "Est. completion not on file",
       "Square footage not on file"
-    ]
+    ],
+    "estCompletion": "04/28/2026",
+    "estCompletionDate": "2026-04-28",
+    "progress": 100
   },
   {
     "id": "25701",
@@ -495,11 +498,10 @@
     "featured": false,
     "siteId": "lcb-south",
     "siteName": "LCB — 401 S. Carson",
-    "description": "TI Office in Carson City. Completion date not yet on file.",
+    "description": "TI Office in Carson City. Estimated completion 11/27/2026.",
     "heroImage": null,
     "flags": [
       "Co-managed with MK",
-      "Est. completion not on file",
       "Square footage not on file"
     ],
     "photos": [
@@ -509,7 +511,9 @@
       "./renders/25701/25701-4.jpg",
       "./renders/25701/25701-5.jpg",
       "./renders/25701/25701-6.jpg"
-    ]
+    ],
+    "estCompletion": "11/27/2026",
+    "estCompletionDate": "2026-11-27"
   },
   {
     "id": "24703",
@@ -525,17 +529,19 @@
     "projectType": "Non-Ins / Misc",
     "team": "rp",
     "superintendent": "TT (Ted Tetreault)",
-    "status": "In Progress",
+    "status": "Complete",
     "year": 2024,
     "featured": false,
     "siteId": "lcb-south",
     "siteName": "LCB — 401 S. Carson",
-    "description": "Non-Ins / Misc in Carson City. Completion date not yet on file.",
+    "description": "Non-Ins / Misc in Carson City. Estimated completion 07/31/2026.",
     "heroImage": null,
     "flags": [
-      "Est. completion not on file",
       "Square footage not on file"
-    ]
+    ],
+    "estCompletion": "07/31/2026",
+    "estCompletionDate": "2026-07-31",
+    "progress": 100
   },
   {
     "id": "26700",
@@ -551,17 +557,19 @@
     "projectType": "GU Other",
     "team": "rp",
     "superintendent": "TS (Ted Scholl)",
-    "status": "In Progress",
+    "status": "Complete",
     "year": 2026,
     "featured": false,
     "siteId": "lcb-north",
     "siteName": "LCB — 101 N. Carson",
-    "description": "GU Other in Carson City. Completion date not yet on file.",
+    "description": "GU Other in Carson City. Estimated completion 10/05/2026.",
     "heroImage": null,
     "flags": [
-      "Est. completion not on file",
       "Square footage not on file"
-    ]
+    ],
+    "estCompletion": "10/05/2026",
+    "estCompletionDate": "2026-10-05",
+    "progress": 100
   },
   {
     "id": "26708",
@@ -582,12 +590,13 @@
     "featured": false,
     "siteId": "lcb-north",
     "siteName": "LCB — 101 N. Carson",
-    "description": "TI Other in Carson City. Completion date not yet on file.",
+    "description": "TI Other in Carson City. Estimated completion 12/17/2026.",
     "heroImage": null,
     "flags": [
-      "Est. completion not on file",
       "Square footage not on file"
-    ]
+    ],
+    "estCompletion": "12/17/2026",
+    "estCompletionDate": "2026-12-17"
   },
   {
     "id": "26709",
@@ -608,12 +617,13 @@
     "featured": false,
     "siteId": "lcb-north",
     "siteName": "LCB — 101 N. Carson",
-    "description": "TI Other in Carson City. Completion date not yet on file.",
+    "description": "TI Other in Carson City. Estimated completion 12/18/2026.",
     "heroImage": null,
     "flags": [
-      "Est. completion not on file",
       "Square footage not on file"
-    ]
+    ],
+    "estCompletion": "12/18/2026",
+    "estCompletionDate": "2026-12-18"
   },
   {
     "id": "26707",
@@ -628,7 +638,7 @@
     "category": "Civic & Housing",
     "projectType": "GU Other",
     "team": "rp",
-    "superintendent": "TM (Tyler Metcalf)",
+    "superintendent": "Erik Dosh",
     "status": "In Progress",
     "year": 2026,
     "featured": false,
@@ -656,12 +666,15 @@
     "status": "In Progress",
     "year": 2026,
     "featured": false,
-    "description": "TI Office in Reno. Completion date not yet on file.",
+    "description": "TI Office in Reno. Estimated completion 02/01/2027.",
     "heroImage": null,
     "flags": [
-      "Est. completion not on file",
       "Square footage not on file"
-    ]
+    ],
+    "estCompletion": "02/01/2027",
+    "estCompletionDate": "2027-02-01",
+    "siteId": "kietzke-5441",
+    "siteName": "5441 Kietzke Ln"
   },
   {
     "id": "B7035",
@@ -677,16 +690,16 @@
     "projectType": "Not on file",
     "team": "rp",
     "superintendent": null,
-    "status": "In Progress",
+    "status": "Preconstruction",
     "featured": false,
-    "description": "Light and Wonder in Reno. Completion date not yet on file.",
+    "description": "Light and Wonder in Reno. Estimated completion Q4 2027.",
     "heroImage": null,
     "flags": [
       "Project type not on file",
       "Superintendent not on file",
-      "Est. completion not on file",
       "Square footage not on file"
-    ]
+    ],
+    "estCompletion": "Q4 2027"
   },
   {
     "id": "26108",
@@ -2758,5 +2771,59 @@
     "flags": [
       "Est. completion not on file"
     ]
+  },
+  {
+    "id": "26702",
+    "number": "26702",
+    "name": "Kietzke Exterior and Lobby",
+    "address": "5441 Kietzke Ln",
+    "city": "Reno",
+    "state": "NV",
+    "region": "NNV",
+    "lat": 39.464736,
+    "lng": -119.790807,
+    "category": "Office & TI",
+    "team": "rp",
+    "superintendent": "TK",
+    "status": "In Progress",
+    "year": 2026,
+    "featured": false,
+    "siteId": "kietzke-5441",
+    "siteName": "5441 Kietzke Ln",
+    "description": "TI in Reno. Estimated completion 12/02/2026.",
+    "heroImage": null,
+    "flags": [
+      "Project type not on file",
+      "Square footage not on file"
+    ],
+    "estCompletion": "12/02/2026",
+    "estCompletionDate": "2026-12-02"
+  },
+  {
+    "id": "26713",
+    "number": "26713",
+    "name": "First Centennial TI",
+    "address": "5441 Kietzke Ln",
+    "city": "Reno",
+    "state": "NV",
+    "region": "NNV",
+    "lat": 39.464736,
+    "lng": -119.790807,
+    "category": "Office & TI",
+    "team": "rp",
+    "superintendent": "TK",
+    "status": "In Progress",
+    "year": 2026,
+    "featured": false,
+    "siteId": "kietzke-5441",
+    "siteName": "5441 Kietzke Ln",
+    "description": "TI in Reno. Estimated completion 02/01/2027.",
+    "heroImage": null,
+    "flags": [
+      "Project type not on file",
+      "Square footage not on file"
+    ],
+    "estCompletion": "02/01/2027",
+    "estCompletionDate": "2027-02-01"
   }
 ]
