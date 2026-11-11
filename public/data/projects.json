@@ -642,12 +642,13 @@
     "status": "In Progress",
     "year": 2026,
     "featured": false,
-    "description": "GU Other in Reno. Completion date not yet on file.",
+    "description": "GU Other in Reno. Estimated completion 08/01/2027.",
     "heroImage": null,
     "flags": [
-      "Est. completion not on file",
       "Square footage not on file"
-    ]
+    ],
+    "estCompletion": "08/01/2027",
+    "estCompletionDate": "2027-08-01"
   },
   {
     "id": "26706",
@@ -2784,7 +2785,7 @@
     "lng": -119.790807,
     "category": "Office & TI",
     "team": "rp",
-    "superintendent": "TK",
+    "superintendent": "TK (Tyler Kircher)",
     "status": "In Progress",
     "year": 2026,
     "featured": false,
@@ -2811,7 +2812,7 @@
     "lng": -119.790807,
     "category": "Office & TI",
     "team": "rp",
-    "superintendent": "TK",
+    "superintendent": "TK (Tyler Kircher)",
     "status": "In Progress",
     "year": 2026,
     "featured": false,
